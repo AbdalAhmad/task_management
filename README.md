@@ -1,16 +1,77 @@
-# task_flow
+# TaskFlow – Task Management App (Flutter)
 
-A new Flutter project.
+TaskFlow is a Flutter-based task management application designed for gig workers.
+The app allows users to create, update, delete, and manage tasks efficiently with
+authentication, filtering, and a clean Material UI.
 
-## Getting Started
+This project was developed as part of the **Flutter Developer Intern Assignment for Whatbytes**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔐 User Authentication
+- Firebase Authentication (Email & Password)
+- User registration and login
+- Proper error handling for invalid credentials
+- Secure logout functionality
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📝 Task Management
+- Create, edit, delete, and view tasks
+- Each task includes:
+  - Title
+  - Description
+  - Due date
+  - Priority (Low / Medium / High)
+- Mark tasks as completed or incomplete
+- Swipe to delete with undo support
+- Recently added or edited tasks appear at the top
+
+### 🔍 Task Filtering & Sorting
+- Filter tasks by:
+  - Priority (Low / Medium / High)
+  - Status (Completed / Incomplete)
+- Tasks are sorted by **last updated time**
+  - Newly added tasks appear at the top
+  - Edited tasks also move to the top
+
+### 🎨 User Interface
+- Clean and responsive Material UI
+- Dark mode support
+- Priority-based color indicators
+- Optimized for Android and iOS
+
+### 🧠 State Management & Architecture
+- Riverpod for state management
+- Clean architecture:
+  - Presentation layer (UI)
+  - Domain layer (Models)
+  - Data layer (Providers)
+
+### ☁️ Backend
+- Firebase Authentication
+- Cloud Firestore for task storage
+
+---
+
+## 🛠️ Tech Stack
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- Riverpod
+
+---
+
+## ▶️ Getting Started
+
+### Prerequisites
+- Flutter SDK installed
+- Firebase account
+- Android Studio / VS Code
+
+### Setup Instructions
+
+1. Clone the repository
+   
+   git clone https://github.com/AbdalAhmad/task_management.git
