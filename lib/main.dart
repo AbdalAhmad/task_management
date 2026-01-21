@@ -4,8 +4,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:task_flow/featuresscreen/taskrepo/providercontainer.dart';
 import 'package:timezone/data/latest.dart' as tz;
 
-import 'firebase_options.dart';
-import 'featuresscreen/homescreen/notification/notification.dart';
+import 'firebase/firebase_options.dart';
+import 'featuresscreen/notification/notification.dart';
 import 'splash_screen/splash_screen.dart';
 
 Future<void> main() async {

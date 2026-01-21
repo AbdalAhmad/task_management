@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:task_flow/featuresscreen/homescreen/notification/notification.dart';
+import 'package:task_flow/featuresscreen/notification/notification.dart';
 import 'package:task_flow/featuresscreen/taskrepo/task.dart';
 import 'package:task_flow/featuresscreen/taskrepo/task_provider.dart';
 
@@ -310,7 +310,7 @@ class _AddEditTaskSheetState extends ConsumerState<AddEditTaskSheet> {
                     title: _titleCtrl.text.trim(),
                     description: _descCtrl.text.trim(),
                     dueDate: _finalDate,
-                    priority: _priority,
+                    priority: _priority, updatedAt: DateTime.now(),
                   );
 
                   widget.task == null

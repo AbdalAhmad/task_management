@@ -23,6 +23,7 @@ class TaskModel {
   final DateTime dueDate;
   final TaskPriority priority;
   final bool isCompleted;
+  final DateTime updatedAt;
 
   TaskModel({
     required this.id,
@@ -31,6 +32,7 @@ class TaskModel {
     required this.dueDate,
     required this.priority,
     this.isCompleted = false,
+     required this.updatedAt,
   });
 
   /// 🔹 Firestore → Model (NULL SAFE)
@@ -45,6 +47,7 @@ class TaskModel {
         map['priority'] ?? 'low',
       ),
       isCompleted: map['isCompleted'] ?? false,
+      updatedAt: DateTime.now(), 
     );
   }
 
@@ -75,6 +78,7 @@ class TaskModel {
       dueDate: dueDate ?? this.dueDate,
       priority: priority ?? this.priority,
       isCompleted: isCompleted ?? this.isCompleted,
+       updatedAt: DateTime.now(),
     );
   }
 }
