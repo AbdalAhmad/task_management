@@ -88,4 +88,16 @@ This project was developed as part of the **Flutter Developer Intern Assignment 
   <img src="https://github.com/user-attachments/assets/d2e96190-6724-4b6e-848b-4a775788bbc0" width="220" />
   <br>
   <img src="https://github.com/user-attachments/assets/4cd44fcb-6c6a-4b76-829a-d534d7897d90" width="220" />
+<img src="https://github.com/user-attachments/assets/150e755f-26e3-4a0c-ad65-f952eca53d08" width="220" />
+  <br>
+<img src="https://github.com/user-attachments/assets/10ca212e-8af6-4615-a2bb-36dab478b630" width="220" />
+  <br>
+  
+<img src="https://github.com/user-attachments/assets/90db9c67-ac23-49ee-8b32-3e08c34685bc" width="220" />
+<br>
+<img src="https://github.com/user-attachments/assets/6ba89385-0a47-44f3-9150-fd03f08eba8b" width="220" />
+<br>
+<img src="https://github.com/user-attachments/assets/e8cd920a-36d6-4bbb-857c-d08e94c69f6f" width="220" />
+
 </p>
+
